@@ -248,6 +248,9 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      'araby-regular': ['AlarabyTelevision-Regular', 'Helvetica', 'Arial', 'Sans-Serif', '-apple-system', 'BlinkMacSystemFont'],
+      'araby-medium': ['AlarabyTelevision-Medium', 'Helvetica', 'Arial', 'Sans-Serif', '-apple-system', 'BlinkMacSystemFont'],
+      'araby-bold': ['AlarabyTelevision-Bold', 'Helvetica', 'Arial', 'Sans-Serif', '-apple-system', 'BlinkMacSystemFont']
     },
     fontSize: {
       xs: '0.75rem',
