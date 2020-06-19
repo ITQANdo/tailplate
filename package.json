@@ -1,0 +1,34 @@
+{
+  "name": "TGv3-desigb",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "del:js": "rimraf tailwind.config.js",
+    "create:js": "npx tailwindcss init --full",
+    "css:dev": "env NODE_ENV=development postcss style/style.css -o style/style.dev.css",
+    "css:build": "env NODE_ENV=production postcss style/style.css -o style/style.min.css",
+    "finalize": "npm run css:build && npm run gh",
+    "gh": "git add -A && git commit -m 'automated push' && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+.git"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.1",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0"
+  },
+  "author": "ITQAN Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "/issues"
+  },
+  "homepage": "#readme"
+}

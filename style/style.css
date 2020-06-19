@@ -1,0 +1,32 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+    font-family: AlarabyTelevision-Bold;
+    src: url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Bold.eot);
+    src: url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Bold.woff2) format('woff2'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Bold.woff) format('woff'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Bold.ttf) format('truetype'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Bold.svg#AlarabyTelevision-Bold) format('svg'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Bold.eot?#iefix) format('embedded-opentype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal
+}
+
+@font-face {
+    font-family: AlarabyTelevision-Medium;
+    src: url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Medium.eot);
+    src: url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Medium.woff2) format('woff2'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Medium.woff) format('woff'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Medium.ttf) format('truetype'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Medium.svg#AlarabyTelevision-Bold) format('svg'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Medium.eot?#iefix) format('embedded-opentype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal
+}
+
+@font-face {
+    font-family: AlarabyTelevision-Regular;
+    src: url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Regular.eot);
+    src: url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Regular.woff2) format('woff2'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Regular.woff) format('woff'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Regular.ttf) format('truetype'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Regular.svg#AlarabyTelevision-Bold) format('svg'), url(https://cdn.jsdelivr.net/gh/truegaming/pubic_site_content@prod26feb19b/fonts/AlarabyTelevision-Regular.eot?#iefix) format('embedded-opentype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal
+}
