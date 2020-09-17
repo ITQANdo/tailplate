@@ -1,5 +1,5 @@
 {
-  "name": "TGv3-desigb",
+  "name": "tailplate",
   "version": "3.0.0",
   "description": "",
   "main": "index.js",
@@ -23,12 +23,13 @@
     "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.2.0"
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "tailwindcss-rtl": "^0.4.1"
   },
   "author": "ITQAN Labs",
   "license": "MIT",
   "bugs": {
-    "url": "/issues"
+    "url": "https://github.com/ITQANdo/tailplate/issues"
   },
   "homepage": "#readme"
 }
